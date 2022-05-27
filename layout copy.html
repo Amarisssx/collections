@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style_margin.css"/>
+
+ 
+  </head>
+
+  <body>
+   
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="botanical_images/8.jpg" />
+           </div>
+           <div class="swiper-slide">
+          <img src="botanical_images/5.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/29.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/3.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/6.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/7.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/10.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/12.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/4.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/9.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/14.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/19.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/20.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/15.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/16.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/22.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/17.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/25.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/18.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/21.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/26.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/27.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/28.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/30.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/2.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/31.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/45.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/41.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/32.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/44.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/46.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/47.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/50.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="botanical_images/48.jpg" />
+        </div>
+      
+      
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
