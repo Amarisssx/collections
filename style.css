@@ -1,6 +1,6 @@
 body {
     /* background: rgb(13, 13, 13); */
-    background:url('wallhaven-4v7m84.png');
+    background:url('Collection2.png');
     background-size:100%;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -8,17 +8,32 @@ body {
     margin: 0;
     padding: 0;
 }
+
+a:link {
+    text-decoration:none;
+    color: rgb(196, 194, 194);
+}    /* unvisited link */
+a:visited {
+    text-decoration:none;
+    color: white;
+} /* visited link */
+a:hover {
+    text-decoration:underline;
+    color: white
+}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+
 .logo img{
     width:330px;
     height:60px;
     position:fixed;
-    top:50px;
+    top:80px;
     left:100px;
 }
 .swiper {
     width: 100%;
-    padding-top: 250px;
-    padding-bottom: 130px;
+    padding-top: 325px;
+    padding-bottom: 160px;
 }
 
 .swiper-slide {
