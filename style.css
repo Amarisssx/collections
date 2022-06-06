@@ -12,16 +12,16 @@ body {
 a:link {
     text-decoration:none;
     color: rgb(196, 194, 194);
-}    /* unvisited link */
+}   
 a:visited {
     text-decoration:none;
     color: white;
-} /* visited link */
+} 
 a:hover {
     text-decoration:underline;
     color: white
-}   /* mouse over link */
-a:active {text-decoration:underline;}  /* selected link */
+}   
+a:active {text-decoration:underline;} 
 
 .logo img{
     width:330px;
